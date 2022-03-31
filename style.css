@@ -236,7 +236,7 @@ section {
   display: block;
   width: 0%;
   margin: auto;
-  height: 2.5px;
+  height: 2.8px;
   border-radius: 10px;
   background-color: black;
   transition: 0.5s;
@@ -362,6 +362,11 @@ footer img {
     text-align: left;
     position: fixed;
     left: 20px;
+    font-size: 1em;
+  }
+
+  .product-header h1 {
+    font-size: 1.5em;
   }
 
   .product img {
