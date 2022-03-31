@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Payment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="payment">
+        <h1>Form Payment</h1>
+        <form action="">
+          <input type="text" placeholder="Nama" name="nama" id="nama" />
+          <input type="text" placeholder="Aplikasi" name="aplikasi" id="aplikasi" />
+          <input type="text" placeholder="Durasi" name="durasi" id="durasi" />
+          <input type="text" placeholder="Payment" name="payment" id="payment" />
+          <br />
+          <label for="payment">Dana / OVO / GoPay / BCA / Mandiri</label>
+          <br />
+          <input type="submit" class="submit" onclick="goToWhatsapp()" value="Send" />
+        </form>
+      </div>
+      <div class="button back"><a href="../index.html">Back</a></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

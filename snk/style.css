@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 50px 20px;
+  grid-template-columns: minmax(100px, 500px);
+  gap: 10px;
+  place-content: center;
+  color: white;
+  grid-auto-flow: row;
+}
+
+.snk {
+  background-color: black;
+  padding: 50px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.regulation {
+  margin: 0 50px;
+}
+
+.regulation ul li {
+  margin-bottom: 10px;
+}
+
+.button a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.back:hover {
+  text-shadow: 0 0 3px white;
+}
