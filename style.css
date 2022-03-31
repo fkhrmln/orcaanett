@@ -41,7 +41,7 @@ nav .brand h1::after {
   display: block;
   width: 0%;
   margin: auto;
-  height: 3px;
+  height: 2.7px;
   border-radius: 10px;
   background-color: black;
   transition: 0.5s;
