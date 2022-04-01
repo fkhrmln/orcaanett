@@ -219,7 +219,7 @@ section {
 
 .product-header {
   text-align: center;
-  margin: 5px 0;
+  margin: 10px 0;
   text-transform: capitalize;
   word-spacing: 5px;
   text-align: center;
@@ -236,7 +236,7 @@ section {
   display: block;
   width: 0%;
   margin: auto;
-  height: 2.8px;
+  height: 2px;
   border-radius: 10px;
   background-color: black;
   transition: 0.5s;
@@ -362,11 +362,11 @@ footer img {
     text-align: left;
     position: fixed;
     left: 20px;
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .product-header h1 {
-    font-size: 1.5em;
+    font-size: 1.7em;
   }
 
   .product img {
@@ -410,7 +410,7 @@ footer img {
   }
 
   nav .brand h1::after {
-    height: 2.23px;
+    height: 2.2px;
   }
 
   header .feature .highlight .item {
@@ -424,7 +424,7 @@ footer img {
   }
 
   .product-header h1::after {
-    height: 2.5px;
+    height: 2px;
   }
 
   .product img {
