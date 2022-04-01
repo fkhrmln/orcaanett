@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   display: grid;
   text-transform: uppercase;
 }
@@ -26,7 +26,7 @@ nav {
 }
 
 nav .brand {
-  font-size: 1.2em;
+  font-size: 1.3em;
   word-spacing: 5px;
   text-align: center;
   cursor: pointer;
@@ -287,7 +287,7 @@ section {
 
 footer {
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   color: black;
   text-transform: none;
   margin: 50px 0 10px 0;
@@ -365,8 +365,16 @@ footer img {
     font-size: 1.1em;
   }
 
+  nav .brand h1::after {
+    display: none;
+  }
+
   .product-header h1 {
     font-size: 1.7em;
+  }
+
+  .product-header h1::after {
+    height: 2px;
   }
 
   .product img {
@@ -410,7 +418,7 @@ footer img {
   }
 
   nav .brand h1::after {
-    height: 2.2px;
+    height: 2.23px;
   }
 
   header .feature .highlight .item {
@@ -421,10 +429,6 @@ footer img {
   header .feature .highlight .price {
     font-size: 1.2em;
     font-weight: 200;
-  }
-
-  .product-header h1::after {
-    height: 2px;
   }
 
   .product img {
