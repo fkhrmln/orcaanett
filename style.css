@@ -41,7 +41,7 @@ nav .brand h1::after {
   display: block;
   width: 0%;
   margin: auto;
-  height: 2.5px;
+  height: 2.3px;
   border-radius: 10px;
   background-color: black;
   transition: 0.5s;
@@ -113,17 +113,17 @@ nav ul li a:hover {
   transform-origin: 0 100%;
 }
 
-.hamburger input:checked ~ span:nth-child(2) {
+.hamburger input:checked~span:nth-child(2) {
   transform: rotate(45deg) translate(1px, -2px);
   background-color: white;
 }
 
-.hamburger input:checked ~ span:nth-child(3) {
+.hamburger input:checked~span:nth-child(3) {
   transform: scale(0);
   background-color: white;
 }
 
-.hamburger input:checked ~ span:nth-child(4) {
+.hamburger input:checked~span:nth-child(4) {
   transform: rotate(-45deg) translate(1px, 2px);
   background-color: white;
 }
@@ -236,7 +236,7 @@ section {
   display: block;
   width: 0%;
   margin: auto;
-  height: 2px;
+  height: 2.3px;
   border-radius: 10px;
   background-color: black;
   transition: 0.5s;
@@ -307,9 +307,11 @@ footer img {
   33.3% {
     left: -100%;
   }
+
   66.6% {
     left: -200%;
   }
+
   100% {
     left: -300%;
   }
@@ -324,6 +326,7 @@ footer img {
     grid-template-rows: 1fr 0.6fr;
     margin-top: 60px;
   }
+
   nav {
     justify-items: end;
     background-color: white;
@@ -350,14 +353,17 @@ footer img {
     transform: translateY(-100%);
     transition: 0.5s;
   }
+
   nav ul.slide {
     transform: translateY(0);
   }
+
   .hamburger {
     display: flex;
     position: fixed;
     right: 20px;
   }
+
   nav .brand {
     text-align: left;
     position: fixed;
@@ -383,9 +389,11 @@ footer img {
     transform: scale(0.8);
     transition: 0.5s;
   }
+
   .product:hover img {
     transform: scale(1);
   }
+
   .disney img,
   .joox img,
   .vidio img {
@@ -413,12 +421,9 @@ footer img {
   nav ul {
     grid-template-columns: 1fr 1fr;
   }
+
   nav .brand {
     min-width: 250px;
-  }
-
-  nav .brand h1::after {
-    height: 2.23px;
   }
 
   header .feature .highlight .item {
@@ -437,6 +442,7 @@ footer img {
     transform: scale(0.8);
     transition: 0.5s;
   }
+
   .product:hover img {
     transform: scale(1);
   }
