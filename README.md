@@ -1,2 +1,2 @@
 # OrcaaNett
-Website ini dibuat untuk temanku Audry
+Web buat ega
